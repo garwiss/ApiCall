@@ -1,0 +1,24 @@
+.App{
+    margin: 10px;
+}
+
+.searchDiv{
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.searchDiv form{
+    display:flex;
+    flex-direction: column;
+}
+
+.imageList{
+    columns: 300px 5 ;   /* boyutu 250 px ve 5 tane olacak şekilde ayarlandı*/
+    column-gap:10px;  /*her bir column arasına 10 px boşluk */
+}
+
+.imageListImg{
+    width: 100%;
+    margin-bottom: 15px;
+}
